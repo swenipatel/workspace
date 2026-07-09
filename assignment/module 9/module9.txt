@@ -1,0 +1,42 @@
+1. Explain the difference between implicit and explicit animations in Flutter.
+
+->Implicit Animation
+Flutter handles the animation automatically.
+Easy to use.
+No AnimationController is needed.
+Used for simple animations like changing size or color.
+Example: AnimatedContainer
+
+->Explicit Animation
+The developer controls the animation.
+Uses AnimationController.
+Used for complex animations.
+Example: AnimationController, ScaleTransition
+
+->>Difference
+    Implicit Animation	        Explicit Animation
+          Easy	                    Complex
+         Automatic	         Manual control
+      No AnimationController	Uses AnimationController
+     For simple animations	For complex animations
+
+
+2. Describe the purpose of AnimationController and its usage.
+
+->AnimationController is used to control an animation.
+It can Start the animation,Stop the animation,Repeat the animation,
+Reverse the animation,Set the animation speed and duration.
+It is used in explicit animations.
+
+
+3. Explain the concept of Hero animations in Flutter.
+
+->A Hero animation creates a smooth transition of the same widget (like an image or icon) between two screens.
+It works by using the same Hero tag on both screens.
+
+Example:When you tap a small image on the first screen, it smoothly becomes a large image on the second screen.
+
+Advantages:
+Smooth screen transition.
+Better user experience.
+Easy to implement.
