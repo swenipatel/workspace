@@ -1,0 +1,50 @@
+1. Explain the purpose of Firebase and list its core services.
+
+->Firebase is a platform developed by Google that helps developers build mobile and web applications 
+without managing their own backend server.
+
+->>Purpose of Firebase
+User Authentication
+Store data
+Store images and files
+Send notifications
+Host applications
+Analyze app performance
+
+->>Core Services of Firebase
+Firebase Authentication – User login and sign-up
+Cloud Firestore – Store and sync data
+Firebase Storage – Store images, videos, and files
+Firebase Cloud Messaging (FCM) – Send push notifications
+Firebase Hosting – Host web applications
+Firebase Analytics – Track app usage
+
+
+2. Describe Firebase Authentication and its use cases in Flutter applications.
+
+->Firebase Authentication is a service that allows users to sign up, log in, and log out securely.
+It supports different login methods such as:Email and Password
+                                            Google Sign-In
+					    Phone Number
+					    Anonymous Login
+					    Use Case
+					    User Registration
+					    User Login
+	    				    Password Reset
+				            Email Verification
+ 					    Secure User Authentication
+
+Example:In a Flutter app, users can create an account using their email and 
+password and then log in securely using Firebase Authentication.
+
+
+3. Explain how Firestore differs from traditional SQL databases.
+
+->Cloud Firestore is a NoSQL database, while SQL databases are relational databases.
+->>>             Firestore	                                    SQL Database
+
+              NoSQL database	                                Relational database
+          Stores data inCollections and Documents	  Stores data in Tables and Rows
+              Flexible data structure	                           Fixed schema
+              Real-time data updates	                Usually requires manual refresh
+                 Easy to scale	                             Scaling is more complex
